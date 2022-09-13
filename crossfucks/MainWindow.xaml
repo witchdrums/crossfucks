@@ -27,7 +27,7 @@
                 <Border BorderBrush="Black" BorderThickness="2" Grid.Column="2"/>
                 
                 <Grid Grid.Column="1" x:Name="Grid_CrosswordPanel">
-
+                //this is a fucking test
                 </Grid>
             </Grid>
         </Border>
