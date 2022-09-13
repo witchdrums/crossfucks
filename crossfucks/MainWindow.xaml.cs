@@ -30,18 +30,23 @@ namespace crossfucks
             {
                 for (int columnIndex = 0; columnIndex < gridSize; columnIndex++)
                 {
-                    Button label = new Button()
+                    Button button_cell = new Button()
                     {
                         Content = 1,
                         //BorderBrush = System.Windows.Media.Brushes.Black,
                         //BorderThickness = new Thickness(1, 1, 1, 1),
                         HorizontalContentAlignment = HorizontalAlignment.Center
                     };
-                    crosswordGrid.Children.Add(label);
+                    button_cell.Click += new RoutedEventHandler(Button_Click);
+                    crosswordGrid.Children.Add(button_cell);
                 }
             }
             this.Grid_CrosswordPanel.Children.Add(crosswordGrid);
         }
 
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            Console.WriteLine("asdfasdfasdfFUCK!!!!!!!!!!!!!!!!1");
+        }
     }
 }

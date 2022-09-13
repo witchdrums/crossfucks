@@ -25,6 +25,7 @@
                 <Border BorderBrush="Black" BorderThickness="2" Grid.Column="0"/>
                 <Border BorderBrush="Black" BorderThickness="2" Grid.Column="1"/>
                 <Border BorderBrush="Black" BorderThickness="2" Grid.Column="2"/>
+                
                 <Grid Grid.Column="1" x:Name="Grid_CrosswordPanel">
 
                 </Grid>
